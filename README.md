@@ -26,6 +26,7 @@ Introduction to machine learning with python book by O'REILLY
 
 ### Algoritmos estadísticos
 `La estádistica es la base de el análisis de datos`
+
     - Algoritmos supervidados. 
         - Son una serie de algoritmos donde los datos históricos tienen unos datos de salida y de entrada.
         - `Si quiero saber el valor de una acción de una empresa dentro de 3 días`
