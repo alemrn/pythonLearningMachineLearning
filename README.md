@@ -62,8 +62,10 @@ Introduction to machine learning with python book by O'REILLY
     ...
 
 ## Matriz de Conocimientos para los Modelos Predictivos
-| Estadística  	| Algoritmos 	|
-|--------------	|------------	|
-| Herramientas y técnicas	| Contexto empresarial  	|
+|       Estadística       	|      Algoritmos      	|
+|:-----------------------:	|:--------------------:	|
+| Herramientas y técnicas 	| Contexto empresarial 	|
+
+
 
 
