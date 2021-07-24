@@ -52,5 +52,18 @@ Introduction to machine learning with python book by O'REILLY
     - Maximizar ventas de un producto incrementando el CTR de anuncios online.
     - Predecir cual es la tasa de crímenes de un barrio según la alineación de fútbol.
     - ...
+    - Banco
+    - Redes sociales
+    - Compra/Venta
+    - Transporte
+    - Recursos Humanos
+    - Sanidad
+    - Seguridad
+    ...
+
+## Matriz de Conocimientos para los Modelos Predictivos
+
+    | Estadística  | Algoritmos |
+    | Herraientas y técnicas | Contexto empresarial |
 
 
