@@ -11,6 +11,7 @@ print("Keys of breast_cancer_dataset:\n", cancer.keys())
 print(cancer['DESCR'][:569] + "\n...")
 print("Target names:", cancer['target_names'])
 print("Feature names:", cancer['feature_names'])
+print("Feature names:", cancer.feature_names)
 print("Type of data:", type(cancer['data']))
 print("Shape of data:", cancer['data'].shape)
 print("First five rows of data:\n", cancer['data'][:5])
@@ -28,7 +29,7 @@ print("y_test shape:", y_test.shape)
 # create dataframe from data in X_train
 cancer_dataframe = pd.DataFrame(X_train, columns=cancer.feature_names)
 # create a scatter matrix from the dataframe, color by y_train
-pd.plotting.scatter_matrix(cancer_dataframe, c=y_train, figsize=(15,15), marker = 'o', hist_kwds={'bins':20}, s=60, alpha=.8, cmap=mglearn.cm3)
+pd.plotting.scatter_matrix(cancer_dataframe, c=y_train, figsize=(15,15), marker = 'o', hist_kwds={'bins':20}, s=6, alpha=.8, cmap=mglearn.cm3)
 
 plt.show()
 
